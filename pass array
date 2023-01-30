@@ -1,0 +1,19 @@
+#include<stdio.h>
+void Array(int *Array, int sizeofArray)
+{
+    if(Array != NULL)
+    {
+        int index = 0;
+        for(index = 0; index < sizeofArray; ++index)
+        {
+            printf("%d ",Array[index]);
+        }
+    }
+}
+int main()
+{
+    int a[] = {1,2,3,4};
+    const int sizeofArray = sizeof(a)/sizeof(int)
+    Array(a, sizeofArray);
+    return 0;
+}
