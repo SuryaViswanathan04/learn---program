@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+int main ()
+{
+  //char str[10];
+  char str1[100]="my name";
+  char str2[100]="is surya"; 
+  int i, n;
+  int count = 1;
+   n= strcmp(str1,str2);
+  if(n==0)
+    printf("equal");
+    else
+    printf("not equal");
+}
