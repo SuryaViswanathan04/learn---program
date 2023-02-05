@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include<string.h>
+#include<ctype.h>
+int main()
+{
+    char str[100]; 
+    char temp;
+   printf("Enter the character");
+   scanf("%c",&temp);
+   
+   if(isdigit(temp))
+   {
+       printf("digit");
+   }
+   else
+   {
+     printf("not");
+   }
+}
