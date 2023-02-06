@@ -1,0 +1,11 @@
+#include <stdio.h>
+  #include <string.h>
+
+void main ()
+{
+  char str1[100]="My name is";
+  char str2[100]=" c"; 
+  char str[100];
+  strcat(str1,str2);
+  printf("%s",str1);
+}
