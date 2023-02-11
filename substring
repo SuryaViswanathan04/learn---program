@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[100];
+    int ch,t,h,e,spc,freq=0;
+    printf("enter string");
+    fgets(a,sizeof 
+    a, stdin);
+    int i,j;
+    for(i=0; a[i]!='\0';i++)
+    {
+      t= (a[i]=='t' ||a[i]=='T');
+      h=(a[i+1]=='h' || a[i+1]=='h');
+      e=(a[i+2]=='e' || a[i+2]=='e');
+      spc=(a[i+3]==' ' || a[i+3]==' ');
+      if(t&&h&&e&&spc ==1)
+      {
+          freq++;
+      }
+    }
+    printf("%d",freq);
+}
+
