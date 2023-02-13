@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+   
+    char str[100],ch;
+    int i,max,t;
+    printf("Enter char");
+    scanf("%c",&ch);
+    
+       if(isxdigit(ch))
+    {
+        printf("hexadecimal");
+    }
+    else
+    printf("not");int main()
+{
+   
+    char str[100],ch;
+    int i,max,t;
+    printf("Enter char");
+    scanf("%c",&ch);
+    
+       if(isxdigit(ch))
+    {
+        printf("hexadecimal");
+    }
+    else
+    printf("not");
+}
+}
